@@ -1,0 +1,17 @@
+seirasakaguchi@sakaguchiseirainoMacBook-Air ~ % cd /Users/seirasakaguchi/Desktop 
+seirasakaguchi@sakaguchiseirainoMacBook-Air Desktop % mkdir git_challenge
+seirasakaguchi@sakaguchiseirainoMacBook-Air Desktop % cd git_challenge
+seirasakaguchi@sakaguchiseirainoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/seirasakaguchi/Desktop/git_challenge/.git/
+seirasakaguchi@sakaguchiseirainoMacBook-Air git_challenge % git add hello_world.txt
+seirasakaguchi@sakaguchiseirainoMacBook-Air git_challenge % git commit -m"hello_world.txtを追加"
+[main (root-commit) c85712f] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+seirasakaguchi@sakaguchiseirainoMacBook-Air git_challenge % git add hello_world.txt
+seirasakaguchi@sakaguchiseirainoMacBook-Air git_challenge % git commit -m"日本語訳を追記"
+[main 987166e] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+seirasakaguchi@sakaguchiseirainoMacBook-Air git_challenge % git log --oneline
+987166e (HEAD -> main) 日本語訳を追記
+c85712f hello_world.txtを追加
